@@ -1,0 +1,69 @@
+body {
+  background-color: #F3F8FF;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-areas: 'header header' 'book login';
+  max-height: 100vh;
+}
+
+header {
+  grid-area: header;
+  margin: 2rem auto auto 2rem;
+  font-size: 30px;
+}
+
+.Logo {
+  grid-area: book;
+}
+
+.Login {
+  grid-area: login;
+  margin: 50% 10% auto auto;
+}*/
+
+ .ant-popover-placement-left > .ant-popover-content > .ant-popover-arrow, .ant-popover-placement-leftTop > .ant-popover-content > .ant-popover-arrow, .ant-popover-placement-leftBottom > .ant-popover-content > .ant-popover-arrow {
+
+  border-top-color: #aaa !important;
+  border-right-color: #aaa  !important;
+  border-bottom-color: transparent  !important;
+  border-left-color: transparent  !important;
+ }
+
+ .ant-popover-placement-right > .ant-popover-content > .ant-popover-arrow, .ant-popover-placement-rightTop > .ant-popover-content > .ant-popover-arrow, .ant-popover-placement-rightBottom > .ant-popover-content > .ant-popover-arrow {
+  border-top-color: transparent !important;
+  border-right-color: transparent  !important;
+  border-bottom-color: #aaa  !important;
+  border-left-color: #aaa  !important;
+ }
+
+ .ant-popover-placement-bottom > .ant-popover-content > .ant-popover-arrow, .ant-popover-placement-bottomLeft > .ant-popover-content > .ant-popover-arrow, .ant-popover-placement-bottomRight > .ant-popover-content > .ant-popover-arrow {
+  border-top-color: transparent !important;
+  border-right-color: transparent  !important;
+  border-bottom-color: transparent  !important;
+  border-left-color: transparent  !important;
+ }
+
+.ant-popover-inner-content{
+  background-color: #aaa;
+ }
+
+ .ant-btn .ant-btn-primary .ant-btn-lg .ant-input-search-button {
+  background-color: #4951EC;
+}
+
+
+Registration {
+  width: 100%;
+  position: absolute;
+}
+
+.ant-layout-header .ant-menu {
+  line-height: 370% !important; 
+}
